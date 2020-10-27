@@ -18,7 +18,7 @@ $msg="";
 	$mail->Username="kundans48@gmail.com";
 	$mail->Password="ramadhar@123";
 	$mail->SetFrom($name);
-	$mail->addAddress("rs5802@gmail.com");
+	$mail->addAddress("kundans48@gmail.com");
 	$mail->IsHTML(true);
 	$mail->Subject="New Contact Us";
 	$mail->Body=$html;
