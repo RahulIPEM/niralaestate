@@ -91,6 +91,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						$("#mail-status").html(response.text);
 					},
 					error: function (err) { 
+						$("#mail-status").show();
+						$('#loader-icon').hide();
 						console.error("error is =============> ",err);
 					}
 				});
